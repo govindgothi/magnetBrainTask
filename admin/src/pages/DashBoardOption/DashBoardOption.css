@@ -1,0 +1,55 @@
+.user-tab-page{
+    margin-top: 20px;
+    width: 100%;
+    margin-inline: auto;
+}
+.tab-heading{
+    display: flex;
+    align-items: center;
+}
+.tabs{
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    margin: 2px;
+    border: 1px solid black;
+    padding: 6px;
+    cursor: pointer;
+}
+.parent-active-component{
+    margin-top: 10px;
+}
+.bg{
+    background-color: rgb(51, 241, 241);
+    border-radius: 4px;
+    color: black;
+    margin: 2px;
+    border: 1px solid black;
+    padding: 6px;
+    cursor: pointer;
+}
+.traverse-btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+.traverse-btn *{
+    padding: 6px 13px;
+    margin: 3px 4px;
+    border-radius: 5px;
+}
+.submit-btn{
+    background-color: green;
+    color: white;
+}
+.prev-btn{
+  background-color: rgb(63, 63, 204);
+  color: white;
+}
+.next-btn{
+  background-color: rgb(63, 63, 204);
+  color: white;
+}
+.line{
+    border-bottom: 1px solid gray;
+}

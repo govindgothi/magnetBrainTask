@@ -1,0 +1,40 @@
+.task-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  align-items: center;
+  font-size: 14px;
+}
+
+.task-cell {
+  padding: 4px 10px;
+}
+
+.priority.high {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.priority.medium {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.priority.low {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: #6c757d;
+}
+
+.status.on-progress {
+  color: #007bff;
+}
+
+.status.completed {
+  color: #28a745;
+}

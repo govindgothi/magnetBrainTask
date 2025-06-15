@@ -1,0 +1,98 @@
+.task-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9fafb;
+  font-family: sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  position: relative;
+  width: 60%;
+}
+
+.task-title {
+  flex: 2;
+  font-weight: 600;
+}
+
+.task-status-btn {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: none;
+  cursor: default;
+}
+
+/* Status colors */
+.status-medium {
+  background-color: #fde68a;
+  color: #92400e;
+}
+
+.status-low {
+  background-color: #bbf7d0;
+  color: #065f46;
+}
+
+.status-high {
+  background-color: #fecaca;
+  color: #991b1b;
+}
+
+.status-default {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.task-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.task-date {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.task-menu {
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.menu-dropdown {
+  position: absolute;
+  right: 0;
+  top: 24px;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-dropdown button {
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  color: #374151;
+  transition: background 0.2s;
+}
+
+.menu-dropdown button:hover {
+  background-color: #f3f4f6;
+}

@@ -1,0 +1,23 @@
+.header{
+ background-color: rgb(245, 245, 245);
+ border-bottom: 1px solid rgb(209, 208, 208);
+ padding: 10px 20px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+  width: 70px;
+  font-size: 30px;
+}
+.auth{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 5;
+ width: 9%;
+}
+.auth *{
+    cursor: pointer;
+}
